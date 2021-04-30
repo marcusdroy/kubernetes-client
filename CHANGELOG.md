@@ -3,6 +3,7 @@
 ### 5.4-SNAPSHOT
 
 #### Bugs
+* Fix #3040: Consistently order printer columns by JSON path to prevent undue changes in generated CRDs
 * Fix #3038: Upgrade TLS versions in mock servers to 1.2.
 * Fix #3014: Resync Future is canceled and resync executor is shutdown on informer stop
 * Fix #2978: Fix SharedInformer NPE on initial requests while syncing
