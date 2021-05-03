@@ -3,6 +3,7 @@
 ### 5.4-SNAPSHOT
 
 #### Bugs
+* Fix #3041: Properly output `additionalProperties` field for Maps, output warning for unsupported complex maps
 * Fix #3038: Upgrade TLS versions in mock servers to 1.2.
 * Fix #3014: Resync Future is canceled and resync executor is shutdown on informer stop
 * Fix #2978: Fix SharedInformer NPE on initial requests while syncing
@@ -15,7 +16,7 @@
 * Fix #3011: properly handle enum types for additional printer columns
 * Fix #3020: annotations should now properly have their associated values when processing CRDs from the API
 * Fix #3016: Use scheduleWithFixedDelay for resync task execution
-* Fix #2991: reduced the level of ReflectWatcher event recieved log
+* Fix #2991: reduced the level of ReflectWatcher event received log
 * Fix #3027: fix NPE when sorting events in KubernetesResourceUtil
 * Fix missing entry for Trigger in TektonTriggersResourceMappingProvider
 * Fix #3047: NPE when getting version when there is no build date
