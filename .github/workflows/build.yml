@@ -24,6 +24,7 @@ on:
   push:
     branches:
       - master
+      - patch-3
   pull_request:
 
 jobs:
